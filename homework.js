@@ -137,17 +137,17 @@ orders
     .set(client3, clientOrder3);
 
 console.log(
-    `Клиент ${client1.name} заказал(а):  ${[...orders.get(client1)]
+    `Клиент ${client1.name} заказал(а): ${[...orders.get(client1)]
         .join(" и ")
         .split(",")}`
 );
 console.log(
-    `Клиент ${client2.name} заказал(а):  ${[...orders.get(client2)]
+    `Клиент ${client2.name} заказал(а): ${[...orders.get(client2)]
         .join(" и ")
         .split(",")}`
 );
 console.log(
-    `Клиент ${client3.name} заказал(а):  ${[...orders.get(client3)]
+    `Клиент ${client3.name} заказал(а): ${[...orders.get(client3)]
         .join(" и ")
         .split(",")}`
 );
