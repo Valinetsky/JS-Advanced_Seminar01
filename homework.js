@@ -170,6 +170,6 @@ console.log("-------------------------------");
 console.log("Вывод всех через forEach");
 orders.forEach((value, key) => {
     console.log(
-        `Клиент ${key.name} заказал(а):  ${[...value].join(" и ").split(",")}`
+        `Клиент ${key.name} заказал(а): ${[...value].join(" и ").split(",")}`
     );
 });
