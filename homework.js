@@ -153,6 +153,7 @@ console.log(
 );
 
 // -------------------------------
+console.log("-------------------------------");
 console.log('Тест с разделителем блюд — "и"');
 let client7 = { name: "Alice" };
 let clientOrder7 = new Set();
@@ -163,3 +164,12 @@ console.log(
         .join(" и ")
         .split(",")}`
 );
+
+// -------------------------------
+console.log("-------------------------------");
+console.log("Вывод всех через forEach");
+orders.forEach((value, key) => {
+    console.log(
+        `Клиент ${key.name} заказал(а):  ${[...value].join(" и ").split(",")}`
+    );
+});
